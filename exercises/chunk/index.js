@@ -16,7 +16,6 @@ const chunk = (array, size) => {
     index += size;
   }
   return chunks;
-
-}
+};
 
 module.exports = chunk;
