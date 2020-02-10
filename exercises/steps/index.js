@@ -17,6 +17,15 @@
 //       '### '
 //       '####'
 
-function steps(n) {}
+//.padStart(2, '0')
+
+function steps(n) {
+  let hashtags = ''
+
+  for (let i = 1; i<=n; i++){
+    hashtags = hashtags+'#'
+    console.log(hashtags.padEnd(n,' '))
+  }
+}
 
 module.exports = steps;
