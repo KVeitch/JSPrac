@@ -17,7 +17,6 @@ const reverseInt = n => {
   }
   if (n < 0) {
     reversed = '-' + reversed.slice(0, -1);
-    console.log('here=====>', reversed);
   }
 
   return parseInt(reversed);
